@@ -1,0 +1,274 @@
+188 MATHEMATICS
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-11\Chap-11 (03-01-2006).PM65
+CHAPTER 11
+CONSTRUCTIONS
+11.1Introduction
+In earlier chapters, the diagrams, which were necessary to prove a theorem or solving
+exercises were not necessarily precise. They were drawn only to give you a feeling for
+the situation and as an aid for proper reasoning. However, sometimes one needs an
+accurate figure, for example - to draw a map of a building to be constructed, to design
+tools, and various parts of a machine, to draw road maps etc. To draw such figures
+some basic geometrical instruments are needed. You must be having a geometry box
+which contains the following:
+(i) A graduated scale, on one side of which centimetres and millimetres are
+marked off and on the other side inches and their parts are marked off.
+(ii) A pair of set - squares, one with angles 90°, 60° and 30° and other with angles
+90°, 45° and 45°.
+(iii) A pair of dividers (or a divider) with adjustments.
+(iv) A pair of compasses (or a compass) with provision of fitting a pencil at one
+end.
+(v) A protractor.
+Normally, all these instruments are needed in drawing a geometrical figure, such
+as a triangle, a circle, a quadrilateral, a polygon, etc. with given measurements. But a
+geometrical construction is the process of drawing a geometrical figure using only two
+instruments – an ungraduated ruler, also called a straight edge and a compass. In
+construction where measurements are also required, you may use a graduated scale
+and protractor also. In this chapter, some basic constructions will be considered. These
+© NCERT
+will then be used to construct certain kinds of triangles.
+not to be republished
+CONSTRUCTIONS 189
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-11\Chap-11 (03-01-2006).PM65
+11.2Basic Constructions
+In Class VI, you have learnt how to construct a circle, the perpendicular bisector of a
+line segment, angles of 30°, 45°, 60°, 90° and 120°, and the bisector of a given angle,
+without giving any justification for these constructions. In this section, you will construct
+some of these, with reasoning behind, why these constructions are valid.
+Construction 11.1 : To construct the bisector of a given angle.
+Given an angle ABC, we want to construct its bisector.
+Steps of Construction :
+1. Taking B as centre and any radius, draw an arc to intersect the rays BA and BC,
+say at E and D respectively [see Fig.11.1(i)].
+2. Next, taking D and E as centres and with the radius more than
+1
+2 DE, draw arcs to
+intersect each other, say at F.
+3. Draw the ray BF [see Fig.11.1(ii)]. This ray BF is the required bisector of the angle
+ABC.
+Fig. 11.1
+Let us see how this method gives us the required angle bisector.
+Join DF and EF.
+In triangles BEF and BDF,
+BE = BD (Radii of the same arc)
+EF = DF (Arcs of equal radii)
+BF = BF (Common)
+Therefore, ΔBEF ≅ ΔBDF (SSS rule)
+© NCERT
+This gives ∠EBF = ∠ DBF (CPCT)
+not to be republished
+190 MATHEMATICS
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-11\Chap-11 (03-01-2006).PM65
+Construction 11.2 : To construct the perpendicular bisector of a given line
+segment.
+Given a line segment AB, we want to construct its perpendicular bisector.
+Steps of Construction :
+1. Taking A and B as centres and radius more than
+1
+2 AB, draw arcs on both sides of the line segment
+AB (to intersect each other).
+2. Let these arcs intersect each other at P and Q.
+Join PQ (see Fig.11.2).
+3. Let PQ intersect AB at the point M. Then line
+PMQ is the required perpendicular bisector of AB.
+Let us see how this method gives us the
+perpendicular bisector of AB.
+Join A and B to both P and Q to form AP, AQ, BP
+and BQ.
+In triangles PAQ and PBQ,
+AP = BP (Arcs of equal radii)
+AQ = BQ (Arcs of equal radii)
+PQ = PQ (Common)
+Therefore, Δ PAQ ≅ Δ PBQ (SSS rule)
+So, ∠ APM = ∠ BPM (CPCT)
+Now in triangles PMA and PMB,
+AP = BP (As before)
+PM = PM (Common)
+∠ APM = ∠ BPM (Proved above)
+Therefore, Δ PMA ≅ Δ PMB (SAS rule)
+So, AM = BM and ∠ PMA = ∠ PMB (CPCT)
+As ∠ PMA + ∠ PMB = 180° (Linear pair axiom),
+we get
+∠ PMA = ∠ PMB = 90°.
+Therefore, PM, that is, PMQ is the perpendicular bisector of AB.
+Fig. 11.2
+© NCERT
+not to be republished
+CONSTRUCTIONS 191
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-11\Chap-11 (03-01-2006).PM65
+Fig. 11.3
+Construction 11.3 : To construct an angle of 600
+ at the initial point of a given
+ray.
+Let us take a ray AB with initial point A [see Fig. 11.3(i)]. We want to construct a ray
+AC such that ∠ CAB = 60°. One way of doing so is given below.
+Steps of Construction :
+1. Taking A as centre and some radius, draw an arc
+of a circle, which intersects AB, say at a point D.
+2. Taking D as centre and with the same radius as
+before, draw an arc intersecting the previously
+drawn arc, say at a point E.
+3. Draw the ray AC passing through E [see Fig 11.3 (ii)].
+Then ∠ CAB is the required angle of 60°. Now,
+let us see how this method gives us the required
+angle of 60°.
+Join DE.
+Then, AE = AD = DE (By construction)
+Therefore, Δ EAD is an equilateral triangle and the ∠ EAD, which is the same as
+∠ CAB is equal to 60°.
+EXERCISE 11.1
+1. Construct an angle of 900
+ at the initial point of a given ray and justify the construction.
+2. Construct an angle of 450 at the initial point of a given ray and justify the construction.
+3. Construct the angles of the following measurements:
+(i) 30° (ii) 22
+1
+2
+° (iii) 15°
+4. Construct the following angles and verify by measuring them by a protractor:
+(i) 75° (ii) 105° (iii) 135°
+5. Construct an equilateral triangle, given its side and justify the construction.
+11.3 Some Constructions of Triangles
+So far, some basic constructions have been considered. Next, some constructions of
+triangles will be done by using the constructions given in earlier classes and given
+above. Recall from the Chapter 7 that SAS, SSS, ASA and RHS rules give the
+congruency of two triangles. Therefore, a triangle is unique if : (i) two sides and the
+© NCERT
+not to be republished
+192 MATHEMATICS
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-11\Chap-11 (03-01-2006).PM65
+included angle is given, (ii) three sides are given, (iii) two angles and the included side
+is given and, (iv) in a right triangle, hypotenuse and one side is given. You have already
+learnt how to construct such triangles in Class VII. Now, let us consider some more
+constructions of triangles. You may have noted that at least three parts of a triangle
+have to be given for constructing it but not all combinations of three parts are sufficient
+for the purpose. For example, if two sides and an angle (not the included angle) are
+given, then it is not always possible to construct such a triangle uniquely.
+Construction 11.4 : To construct a triangle, given its base, a base angle and sum
+of other two sides.
+Given the base BC, a base angle, say ∠B and the sum AB + AC of the other two sides
+of a triangle ABC, you are required to construct it.
+Steps of Construction :
+1. Draw the base BC and at the point B make an
+angle, say XBC equal to the given angle.
+2. Cut a line segment BD equal to AB + AC from
+the ray BX.
+3. Join DC and make an angle DCY equal to ∠BDC.
+4. Let CY intersect BX at A (see Fig. 11.4).
+Then, ABC is the required triangle.
+Let us see how you get the required triangle.
+Base BC and ∠B are drawn as given. Next in triangle
+ACD,
+∠ACD = ∠ ADC (By construction)
+Therefore, AC = AD and then
+AB = BD – AD = BD – AC
+AB + AC = BD
+Alternative method :
+Follow the first two steps as above. Then draw
+perpendicular bisector PQ of CD to intersect BD at
+a point A (see Fig 11.5). Join AC. Then ABC is the
+required triangle. Note that A lies on the perpendicular
+bisector of CD, therefore AD = AC.
+Remark : The construction of the triangle is not
+possible if the sum AB + AC ≤ BC.
+Fig. 11.4
+Fig. 11.5
+© NCERT
+not to be republished
+CONSTRUCTIONS 193
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-11\Chap-11 (03-01-2006).PM65
+Construction 11.5 : To construct a triangle given its base, a base angle and the
+difference of the other two sides.
+Given the base BC, a base angle, say ∠B and the difference of other two sides
+AB – AC or AC – AB, you have to construct the triangle ABC. Clearly there are
+following two cases:
+Case (i) : Let AB > AC that is AB – AC is given.
+Steps of Construction :
+1. Draw the base BC and at point B make an angle
+say XBC equal to the given angle.
+2. Cut the line segment BD equal to AB – AC from
+ray BX.
+3. Join DC and draw the perpendicular bisector, say
+PQ of DC.
+4. Let it intersect BX at a point A. Join AC
+(see Fig. 11.6).
+Then ABC is the required triangle.
+Let us now see how you have obtained the required triangle ABC.
+Base BC and ∠B are drawn as given. The point A lies on the perpendicular bisector of
+DC. Therefore,
+AD = AC
+So, BD = AB – AD = AB – AC.
+Case (ii) : Let AB < AC that is AC – AB is given.
+Steps of Construction :
+1. Same as in case (i).
+2. Cut line segment BD equal to AC – AB from the
+line BX extended on opposite side of line segment
+BC.
+3. Join DC and draw the perpendicular bisector, say
+PQ of DC.
+4. Let PQ intersect BX at A. Join AC (see Fig. 11.7).
+Then, ABC is the required triangle.
+You can justify the construction as in case (i).
+Fig. 11.6
+Fig. 11.7
+© NCERT
+not to be republished
+194 MATHEMATICS
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-11\Chap-11 (03-01-2006).PM65
+Construction 11.6 : To construct a triangle, given its perimeter and its two base
+angles.
+Given the base angles, say ∠ B and ∠ C and BC + CA + AB, you have to construct
+the triangle ABC.
+Steps of Construction :
+1. Draw a line segment, say XY equal to BC + CA + AB.
+2. Make angles LXY equal to ∠B and MYX equal to ∠C.
+3. Bisect ∠ LXY and ∠ MYX. Let these bisectors intersect at a point A
+[see Fig. 11.8(i)].
+Fig. 11.8 (i)
+4. Draw perpendicular bisectors PQ of AX and RS of AY.
+5. Let PQ intersect XY at B and RS intersect XY at C. Join AB and AC
+[see Fig 11.8(ii)].
+Fig. 11.8 (ii)
+Then ABC is the required triangle. For the justification of the construction, you
+observe that, B lies on the perpendicular bisector PQ of AX.
+Therefore, XB = AB and similarly, CY = AC.
+This gives BC + CA + AB = BC + XB + CY = XY.
+Again ∠BAX = ∠AXB (As in Δ AXB, AB = XB) and
+∠ABC = ∠BAX + ∠AXB = 2 ∠AXB = ∠LXY
+Similarly, ∠ACB = ∠MYX as required.
+© NCERT
+not to be republished
+CONSTRUCTIONS 195
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-11\Chap-11 (03-01-2006).PM65
+Example 1 : Construct a triangle ABC, in which ∠B = 60°, ∠ C = 45° and AB + BC
++ CA = 11 cm.
+Steps of Construction :
+1. Draw a line segment PQ = 11 cm.( = AB + BC + CA).
+2. At P construct an angle of 60° and at Q, an angle of 45°.
+Fig. 11.9
+3. Bisect these angles. Let the bisectors of these angles intersect at a point A.
+4. Draw perpendicular bisectors DE of AP to intersect PQ at B and FG of AQ to
+intersect PQ at C.
+5. Join AB and AC (see Fig. 11.9).
+Then, ABC is the required triangle.
+EXERCISE 11.2
+1. Construct a triangle ABC in which BC = 7cm, ∠B = 75° and AB + AC = 13 cm.
+2. Construct a triangle ABC in which BC = 8cm, ∠B = 45° and AB – AC = 3.5 cm.
+3. Construct a triangle PQR in which QR = 6cm, ∠Q = 60° and PR – PQ = 2cm.
+4. Construct a triangle XYZ in which ∠Y = 30°, ∠Z = 90° and XY + YZ + ZX = 11 cm.
+5. Construct a right triangle whose base is 12cm and sum of its hypotenuse and other
+© NCERT
+side is 18 cm.
+not to be republished
+196 MATHEMATICS
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-11\Chap-11 (03-01-2006).PM65
+11.4Summary
+In this chapter, you have done the following constructions using a ruler and a compass:
+1. To bisect a given angle.
+2. To draw the perpendicular bisector of a given line segment.
+3. To construct an angle of 60° etc.
+4. To construct a triangle given its base, a base angle and the sum of the other two sides.
+5. To construct a triangle given its base, a base angle and the difference of the other two
+sides.
+6. To construct a triangle given its perimeter and its two base angles.
+© NCERT
+not to be republished

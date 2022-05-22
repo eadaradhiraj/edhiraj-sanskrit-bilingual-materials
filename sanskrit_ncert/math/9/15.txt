@@ -1,0 +1,1536 @@
+PROBABILLITY 271
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+CHAPTER 15
+PROBABILITY
+It is remarkable that a science, which began with the consideration of
+games of chance, should be elevated to the rank of the most important
+subject of human knowledge. —Pierre Simon Laplace
+15.1 Introduction
+In everyday life, we come across statements such as
+(1) It will probably rain today.
+(2) I doubt that he will pass the test.
+(3) Most probably, Kavita will stand first in the annual examination.
+(4) Chances are high that the prices of diesel will go up.
+(5) There is a 50-50 chance of India winning a toss in today’s match.
+The words ‘probably’, ‘doubt’, ‘most probably’, ‘chances’, etc., used in the
+statements above involve an element of uncertainty. For example, in (1), ‘probably
+rain’ will mean it may rain or may not rain today. We are predicting rain today based
+on our past experience when it rained under similar conditions. Similar predictions are
+also made in other cases listed in (2) to (5).
+The uncertainty of ‘probably’ etc can be measured numerically by means of
+‘probability’ in many cases.
+Though probability started with gambling, it has been used extensively in the fields
+of Physical Sciences, Commerce, Biological Sciences, Medical Sciences, Weather
+Forecasting, etc.
+© NCERT
+not to be republished
+272 MATHEMATICS
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+15.2 Probability – an Experimental Approach
+In earlier classes, you have had a glimpse of probability when you performed
+experiments like tossing of coins, throwing of dice, etc., and observed their outcomes.
+You will now learn to measure the chance of occurrence of a particular outcome in an
+experiment.
+The concept of probability developed in a very
+strange manner. In 1654, a gambler Chevalier
+de Mere, approached the well-known 17th
+century French philosopher and mathematician
+Blaise Pascal regarding certain dice problems.
+Pascal became interested in these problems,
+studied them and discussed them with another
+French mathematician, Pierre de Fermat. Both
+Pascal and Fermat solved the problems
+independently. This work was the beginning
+of Probability Theory.
+The first book on the subject was written by the Italian mathematician, J.Cardan
+(1501–1576). The title of the book was ‘Book on Games of Chance’ (Liber de Ludo
+Aleae), published in 1663. Notable contributions were also made by mathematicians
+J. Bernoulli (1654–1705), P. Laplace (1749–1827), A.A. Markov (1856–1922) and A.N.
+Kolmogorov (born 1903).
+Activity 1 : (i) Take any coin, toss it ten times and note down the number of times a
+head and a tail come up. Record your observations in the form of the following table
+Table 15.1
+Number of times Number of times Number of times
+the coin is tossed head comes up tail comes up
+10 — —
+Write down the values of the following fractions:
+Number of times a head comes up
+Total number of times the coin is tossed
+and
+Number of times a tail comes up
+Total number of times the coin is tossed
+Blaise Pascal
+(1623–1662)
+Fig. 15.1
+Pierre de Fermat
+(1601–1665)
+Fig. 15.2
+© NCERT
+not to be republished
+PROBABILLITY 273
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+(ii) Toss the coin twenty times and in the same way record your observations as
+above. Again find the values of the fractions given above for this collection of
+observations.
+(iii) Repeat the same experiment by increasing the number of tosses and record
+the number of heads and tails. Then find the values of the corresponding
+fractions.
+You will find that as the number of tosses gets larger, the values of the fractions
+come closer to 0.5. To record what happens in more and more tosses, the following
+group activity can also be performed:
+Acitivity 2 : Divide the class into groups of 2 or 3 students. Let a student in each
+group toss a coin 15 times. Another student in each group should record the observations
+regarding heads and tails. [Note that coins of the same denomination should be used in
+all the groups. It will be treated as if only one coin has been tossed by all the groups.]
+Now, on the blackboard, make a table like Table 15.2. First, Group 1 can write
+down its observations and calculate the resulting fractions. Then Group 2 can write
+down its observations, but will calculate the fractions for the combined data of Groups
+1 and 2, and so on. (We may call these fractions as cumulative fractions.) We have
+noted the first three rows based on the observations given by one class of students.
+Table 15.2
+Group Number Number Cumulative number of heads Cumulative number of tails
+of of Total number of times Total number of times
+heads tails the coin is tossed the coin is tossed
+(1) (2) (3) (4) (5)
+1 3 12
+3
+15
+12
+15
+27 8
+7 3 10
+15 15 30
+  
+8 12 20
+15 15 30
+  
+37 8
+7 10 17
+15 30 45
+  
+8 20 28
+15 30 45
+  
+4 M M M M
+What do you observe in the table? You will find that as the total number of tosses
+of the coin increases, the values of the fractions in Columns (4) and (5) come nearer
+and nearer to 0.5.
+Activity 3 : (i) Throw a die* 20 times and note down the number of times the numbers
+*A die is a well balanced cube with its six faces marked with numbers from 1 to 6, one number
+on one face. Sometimes dots appear in place of numbers.
+© NCERT
+not to be republished
+274 MATHEMATICS
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+1, 2, 3, 4, 5, 6 come up. Record your observations in the form of a table, as in Table 15.3:
+Table 15.3
+Number of times a die is thrown Number of times these scores turn up
+123456
+20
+Find the values of the following fractions:
+Number of times 1 turned up
+Total number of times the die is thrown
+Number of times 2 turned up
+Total number of times the die is thrown
+M
+M
+Number of times 6 turned up
+Total number of times the die is thrown
+(ii) Now throw the die 40 times, record the observations and calculate the fractions
+as done in (i).
+As the number of throws of the die increases, you will find that the value of each
+fraction calculated in (i) and (ii) comes closer and closer to 1
+6
+.
+To see this, you could perform a group activity, as done in Activity 2. Divide the
+students in your class, into small groups. One student in each group should throw a die
+ten times. Observations should be noted and cumulative fractions should be calculated.
+The values of the fractions for the number 1 can be recorded in Table 15.4. This
+table can be extended to write down fractions for the other numbers also or other
+tables of the same kind can be created for the other numbers.
+© NCERT
+not to be republished
+PROBABILLITY 275
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+Table 15.4
+Group Total number of times a die Cumulative number of times 1 turned up
+is thrown in a group Total number of times the die is thrown
+(1) (2) (3)
+1— —
+2— —
+3— —
+4 — —
+The dice used in all the groups should be almost the same in size and appearence.
+Then all the throws will be treated as throws of the same die.
+What do you observe in these tables?
+You will find that as the total number of throws gets larger, the fractions in
+Column (3) move closer and closer to 1
+6
+.
+Activity 4 : (i) Toss two coins simultaneously ten times and record your
+observations in the form of a table as given below:
+Table 15.5
+Number of times the Number of times Number of times Number of times
+two coins are tossed no head comes up one head comes up two heads come up
+10 — — —
+Write down the fractions:
+A = Number of times no head comes up
+Total number of times two coins are tossed
+B = Number of times one head comes up
+Total number of times two coins are tossed
+C = Number of times two heads come up
+Total number of times two coins are tossed
+Calculate the values of these fractions.
+© NCERT
+not to be republished
+276 MATHEMATICS
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+Now increase the number of tosses (as in Activitiy 2). You will find that the more
+the number of tosses, the closer are the values of A, B and C to 0.25, 0.5 and 0.25,
+respectively.
+In Activity 1, each toss of a coin is called a trial. Similarly in Activity 3, each
+throw of a die is a trial, and each simultaneous toss of two coins in Activity 4 is also a
+trial.
+So, a trial is an action which results in one or several outcomes. The possible
+outcomes in Activity 1 were Head and Tail; whereas in Activity 3, the possible outcomes
+were 1, 2, 3, 4, 5 and 6.
+In Activity 1, the getting of a head in a particular throw is an event with outcome
+‘head’. Similarly, getting a tail is an event with outcome ‘tail’. In Activity 2, the
+getting of a particular number, say 1, is an event with outcome 1.
+If our experiment was to throw the die for getting an even number, then the event
+would consist of three outcomes, namely, 2, 4 and 6.
+So, an event for an experiment is the collection of some outcomes of the experiment.
+In Class X, you will study a more formal definition of an event.
+So, can you now tell what the events are in Activity 4?
+With this background, let us now see what probability is. Based on what we directly
+observe as the outcomes of our trials, we find the experimental or empirical probability.
+Let n be the total number of trials. The empirical probability P(E) of an event E
+happening, is given by
+P(E) =
+Number of trials in which the event happened
+The total number of trials
+In this chapter, we shall be finding the empirical probability, though we will write
+‘probability’ for convenience.
+Let us consider some examples.
+To start with let us go back to Activity 2, and Table 15.2. In Column (4) of this
+table, what is the fraction that you calculated? Nothing, but it is the empirical probability
+of getting a head. Note that this probability kept changing depending on the number of
+trials and the number of heads obtained in these trials. Similarly, the empirical probability
+of getting a tail is obtained in Column (5) of Table 15.2. This is
+12
+15 to start with, then
+it is
+2
+3 , then
+28
+45 , and so on.
+So, the empirical probability depends on the number of trials undertaken, and the
+number of times the outcomes you are looking for coming up in these trials.
+© NCERT
+not to be republished
+PROBABILLITY 277
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+Activity 5 : Before going further, look at the tables you drew up while doing
+Activity 3. Find the probabilities of getting a 3 when throwing a die a certain number
+of times. Also, show how it changes as the number of trials increases.
+Now let us consider some other examples.
+Example 1 : A coin is tossed 1000 times with the following frequencies:
+Head : 455, Tail : 545
+Compute the probability for each event.
+Solution : Since the coin is tossed 1000 times, the total number of trials is 1000. Let us
+call the events of getting a head and of getting a tail as E and F, respectively. Then, the
+number of times E happens, i.e., the number of times a head come up, is 455.
+So, the probability of E =
+Number of heads
+Total number of trials
+i.e., P (E) =
+455
+1000
+ = 0.455
+Similarly, the probability of the event of getting a tail =
+Number of tails
+Total number of trials
+i.e., P(F) =
+545
+1000
+ = 0.545
+Note that in the example above, P(E) + P(F) = 0.455 + 0.545 = 1, and E and F are
+the only two possible outcomes of each trial.
+Example 2 : Two coins are tossed simultaneously 500 times, and we get
+Two heads : 105 times
+One head : 275 times
+No head : 120 times
+Find the probability of occurrence of each of these events.
+Solution : Let us denote the events of getting two heads, one head and no head by E1
+,
+E2
+ and E3
+, respectively. So,
+P(E1
+) =
+105
+500
+ = 0.21
+P(E2
+) =
+275
+500
+ = 0.55
+P(E3
+) =
+120
+500
+ = 0.24
+© NCERT
+not to be republished
+278 MATHEMATICS
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+Observe that P(E1
+) + P(E2
+) + P(E3
+) = 1. Also E1, E2 and E3 cover all the outcomes
+of a trial.
+Example 3 : A die is thrown 1000 times with the frequencies for the outcomes 1, 2, 3,
+4, 5 and 6 as given in the following table :
+Table 15.6
+Outcome 123456
+Frequency 179 150 157 149 175 190
+Find the probability of getting each outcome.
+Solution : Let Ei
+ denote the event of getting the outcome i, where i = 1, 2, 3, 4, 5, 6.
+Then
+Probability of the outcome 1 = P(E1
+) = Frequency of 1
+Total number of times the die is thrown
+= 179
+1000
+ = 0.179
+Similarly, P(E2) =
+150
+1000 = 0.15, P(E3) =
+157
+1000 = 0.157,
+P(E4) =
+149
+1000 = 0.149, P(E5) =
+175
+1000
+ = 0.175
+and P(E6
+) =
+190
+1000
+ = 0.19.
+Note that P(E1
+) + P(E2
+) + P(E3
+) + P(E4
+) + P(E5) + P(E6
+) = 1
+Also note that:
+(i) The probability of each event lies between 0 and 1.
+(ii) The sum of all the probabilities is 1.
+(iii) E1
+, E2
+, . . ., E6
+ cover all the possible outcomes of a trial.
+Example 4 : On one page of a telephone directory, there were 200 telephone numbers.
+The frequency distribution of their unit place digit (for example, in the number 25828573,
+the unit place digit is 3) is given in Table 15.7 :
+© NCERT
+not to be republished
+PROBABILLITY 279
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+Table 15.7
+Digit 0123456789
+Frequency 22 26 22 22 20 10 14 28 16 20
+Without looking at the page, the pencil is placed on one of these numbers, i.e., the
+number is chosen at random. What is the probability that the digit in its unit place is 6?
+Solution : The probability of digit 6 being in the unit place
+= Frequency of 6
+Total number of selected telephone numbers
+= 14
+200
+ = 0.07
+You can similarly obtain the empirical probabilities of the occurrence of the numbers
+having the other digits in the unit place.
+Example 5 : The record of a weather station shows that out of the past 250 consecutive
+days, its weather forecasts were correct 175 times.
+(i) What is the probability that on a given day it was correct?
+(ii) What is the probability that it was not correct on a given day?
+Solution : The total number of days for which the record is available = 250
+(i) P(the forecast was correct on a given day)
+= Number of days when the forecast was correct
+Total number of days for which the record is available
+= 175
+250
+ = 0.7
+(ii) The number of days when the forecast was not correct = 250 – 175 = 75
+So, P(the forecast was not correct on a given day) =
+75
+250 = 0.3
+Notice that:
+P(forecast was correct on a given day) + P(forecast was not correct on a given day)
+= 0.7 + 0.3 = 1
+© NCERT
+not to be republished
+280 MATHEMATICS
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+Example 6 : A tyre manufacturing company kept a record of the distance covered
+before a tyre needed to be replaced. The table shows the results of 1000 cases.
+Table 15.8
+Distance (in km) less than 4000 4000 to 9000 9001 to 14000 more than 14000
+Frequency 20 210 325 445
+If you buy a tyre of this company, what is the probability that :
+(i) it will need to be replaced before it has covered 4000 km?
+(ii) it will last more than 9000 km?
+(iii) it will need to be replaced after it has covered somewhere between 4000 km
+and 14000 km?
+Solution : (i) The total number of trials = 1000.
+The frequency of a tyre that needs to be replaced before it covers 4000 km is 20.
+So, P(tyre to be replaced before it covers 4000 km) =
+20
+1000
+ = 0.02
+(ii) The frequency of a tyre that will last more than 9000 km is 325 + 445 = 770
+So, P(tyre will last more than 9000 km) =
+770
+1000
+ = 0.77
+(iii) The frequency of a tyre that requires replacement between 4000 km and
+14000 km is 210 + 325 = 535.
+So, P(tyre requiring replacement between 4000 km and 14000 km) =
+535
+1000
+ = 0.535
+Example 7 : The percentage of marks obtained by a student in the monthly unit tests
+are given below:
+Table 15.9
+Unit test I II III IV V
+Percentage of 69 71 73 68 74
+marks obtained
+Based on this data, find the probability that the student gets more than 70% marks in
+a unit test.
+© NCERT
+not to be republished
+PROBABILLITY 281
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+Solution : The total number of unit tests held is 5.
+The number of unit tests in which the student obtained more than 70% marks is 3.
+So, P(scoring more than 70% marks) =
+3
+5
+ = 0.6
+Example 8 : An insurance company selected 2000 drivers at random (i.e., without
+any preference of one driver over another) in a particular city to find a relationship
+between age and accidents. The data obtained are given in the following table:
+Table 15.10
+ Age of drivers Accidents in one year
+ (in years) 0 1 2 3 over 3
+18 - 29 440 160 110 61 35
+30 - 50 505 125 60 22 18
+Above 50 360 45 35 15 9
+Find the probabilities of the following events for a driver chosen at random from the
+city:
+(i) being 18-29 years of age and having exactly 3 accidents in one year.
+(ii) being 30-50 years of age and having one or more accidents in a year.
+(iii) having no accidents in one year.
+Solution : Total number of drivers = 2000.
+(i) The number of drivers who are 18-29 years old and have exactly 3 accidents
+in one year is 61.
+So, P (driver is 18-29 years old with exactly 3 accidents) =
+61
+2000
+ = 0.0305 ≈ 0.031
+(ii) The number of drivers 30-50 years of age and having one or more accidents
+in one year = 125 + 60 + 22 + 18 = 225
+So, P(driver is 30-50 years of age and having one or more accidents)
+= 225
+2000
+ = 0.1125 ≈ 0.113
+(iii) The number of drivers having no accidents in one year = 440 + 505 + 360
+ = 1305
+© NCERT
+not to be republished
+282 MATHEMATICS
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+Therefore, P(drivers with no accident) =
+1305
+2000 = 0.653
+Example 9 : Consider the frequency distribution table (Table 14.3, Example 4,
+Chapter 14), which gives the weights of 38 students of a class.
+(i) Find the probability that the weight of a student in the class lies in the interval
+46-50 kg.
+(ii) Give two events in this context, one having probability 0 and the other having
+probability 1.
+Solution : (i) The total number of students is 38, and the number of students with
+weight in the interval 46 - 50 kg is 3.
+So, P(weight of a student is in the interval 46 - 50 kg) =
+3
+38
+ = 0.079
+(ii) For instance, consider the event that a student weighs 30 kg. Since no student has
+this weight, the probability of occurrence of this event is 0. Similarly, the probability
+of a student weighing more than 30 kg is
+38
+38
+ = 1.
+Example 10 : Fifty seeds were selected at random from each of 5 bags of seeds, and
+were kept under standardised conditions favourable to germination. After 20 days, the
+number of seeds which had germinated in each collection were counted and recorded
+as follows:
+Table 15.11
+Bag 12 345
+Number of seeds 40 48 42 39 41
+germinated
+What is the probability of germination of
+(i) more than 40 seeds in a bag?
+(ii) 49 seeds in a bag?
+(iii) more that 35 seeds in a bag?
+Solution : Total number of bags is 5.
+(i) Number of bags in which more than 40 seeds germinated out of 50 seeds is 3.
+P(germination of more than 40 seeds in a bag) = 5
+
+ = 0.6
+© NCERT
+not to be republished
+PROBABILLITY 283
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+(ii) Number of bags in which 49 seeds germinated = 0.
+P(germination of 49 seeds in a bag) =
+0
+5
+ = 0.
+(iii) Number of bags in which more than 35 seeds germinated = 5.
+So, the required probability =
+5
+5
+ = 1.
+Remark : In all the examples above, you would have noted that the probability of an
+event can be any fraction from 0 to 1.
+EXERCISE 15.1
+1. In a cricket match, a batswoman hits a boundary 6 times out of 30 balls she plays. Find
+the probability that she did not hit a boundary.
+2. 1500 families with 2 children were selected randomly, and the following data were
+recorded:
+Number of girls in a family 210
+Number of families 475 814 211
+Compute the probability of a family, chosen at random, having
+(i) 2 girls (ii) 1 girl (iii) No girl
+Also check whether the sum of these probabilities is 1.
+3. Refer to Example 5, Section 14.4, Chapter 14. Find the probability that a student of the
+class was born in August.
+4. Three coins are tossed simultaneously 200 times with the following frequencies of
+different outcomes:
+Outcome 3 heads 2 heads 1 head No head
+Frequency 23 72 77 28
+If the three coins are simultaneously tossed again, compute the probability of 2 heads
+coming up.
+5. An organisation selected 2400 families at random and surveyed them to determine a
+relationship between income level and the number of vehicles in a family. The
+© NCERT
+not to be republished
+284 MATHEMATICS
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+information gathered is listed in the table below:
+Monthly income Vehicles per family
+(in `) 0 1 2 Above 2
+Less than 7000 10 160 25 0
+ 7000 – 10000 0 305 27 2
+10000 – 13000 1 535 29 1
+13000 – 16000 2 469 59 25
+16000 or more 1 579 82 88
+Suppose a family is chosen. Find the probability that the family chosen is
+(i) earning ` 10000 – 13000 per month and owning exactly 2 vehicles.
+(ii) earning ` 16000 or more per month and owning exactly 1 vehicle.
+(iii) earning less than ` 7000 per month and does not own any vehicle.
+(iv) earning ` 13000 – 16000 per month and owning more than 2 vehicles.
+(v) owning not more than 1 vehicle.
+6. Refer to Table 14.7, Chapter 14.
+(i) Find the probability that a student obtained less than 20% in the mathematics
+test.
+(ii) Find the probability that a student obtained marks 60 or above.
+7. To know the opinion of the students about the subject statistics, a survey of 200
+students was conducted. The data is recorded in the following table.
+Opinion Number of students
+like 135
+dislike 65
+Find the probability that a student chosen at random
+(i) likes statistics, (ii) does not like it.
+8. Refer to Q.2, Exercise 14.2. What is the empirical probability that an engineer lives:
+(i) less than 7 km from her place of work?
+(ii) more than or equal to 7 km from her place of work?
+(iii) within
+1
+2 km from her place of work?
+© NCERT
+not to be republished
+PROBABILLITY 285
+File Name : C:\Computer Station\Maths-IX\Chapter\Chap-15\Chap-15 (02-01-2006).PM65
+9. Activity : Note the frequency of two-wheelers, three-wheelers and four-wheelers
+going past during a time interval, in front of your school gate. Find the probability
+that any one vehicle out of the total vehicles you have observed is a two-wheeler.
+10. Activity : Ask all the students in your class to write a 3-digit number. Choose any
+student from the room at random. What is the probability that the number written by
+her/him is divisible by 3? Remember that a number is divisible by 3, if the sum of its
+digits is divisible by 3.
+11. Eleven bags of wheat flour, each marked 5 kg, actually contained the following weights
+of flour (in kg):
+4.97 5.05 5.08 5.03 5.00 5.06 5.08 4.98 5.04 5.07 5.00
+Find the probability that any of these bags chosen at random contains more than 5 kg
+of flour.
+12. In Q.5, Exercise 14.2, you were asked to prepare a frequency distribution table, regarding
+the concentration of sulphur dioxide in the air in parts per million of a certain city for
+30 days. Using this table, find the probability of the concentration of sulphur dioxide
+in the interval 0.12 - 0.16 on any of these days.
+13. In Q.1, Exercise 14.2, you were asked to prepare a frequency distribution table regarding
+the blood groups of 30 students of a class. Use this table to determine the probability
+that a student of this class, selected at random, has blood group AB.
+15.3 Summary
+In this chapter, you have studied the following points:
+1. An event for an experiment is the collection of some outcomes of the experiment.
+2. The empirical (or experimental) probability P(E) of an event E is given by
+P(E) = Number of trials in which E has happened
+Total number of trials
+3. The Probability of an event lies between 0 and 1 (0 and 1 inclusive).
+© NCERT
+not to be republished
+ANSWERS/HINTS 325
+APPENDIX 1
+ANSWERS/HINTS
+EXERCISE 1.1
+1. Yes. 0 =
+000
+123   etc., denominator q can also be taken as negative integer.
+2. There can be infinitely many rationals betwen numbers 3 and 4, one way is to take them
+3 =
+21 28 , 4
+61 61    .
+ Then the six numbers are 22 23 24 25 26 27 ,,,,, 777777 .
+3. 3 30 4 40 , 5 50 5 50   . Therefore, five rationals are :
+31 32 33 34 35 ,,,, 50 50 50 50 50 
+4. (i) True, since the collection of whole numbers contains all the natural numbers.
+(ii) False, for example – 2 is not a whole number.
+(iii) False, for example 1
+2
+ is a rational number but not a whole number.
+EXERCISE 1.2
+1. (i) True, since collection of real numbers is made up of rational and irrational numbers.
+(ii) False, no negative number can be the square root of any natural number.
+(iii) False, for example 2 is real but not irrational.
+2. No. For example, 4 = 2 is a rational number.
+3. Repeat the procedure as in Fig. 1.8 several times. First obtain 4 and then 5 .
+© NCERT
+not to be republished
+326 MATHEMATICS
+EXERCISE 1.3
+1. (i) 0.36, terminating. (ii) 0.09 , non-terminating repeating.
+(iii) 4.125, terminating. (iv) 0.230769 , non-terminating repeating.
+(v) 0.18 non-terminating repeating. (vi) 0.8225 terminating.
+2. 2 1 2 0.285714, 7 7   3 1 3 0.428571, 7 7   4 1 4 0.571428, 7 7  
+5 1 5 0.714285, 7 7   6 1 6 0.857142
+7 7  
+3. (i)
+2
+3 [Let x = 0.666. . . So 10x = 6.666. . . or, 10x = 6 + x or , x =
+6 2
+9 3  ]
+(ii)
+43
+90 (iii)
+1
+999
+4. 1 [Let x = 0.9999. . . So 10 x = 9.999. . . or, 10 x = 9 + x or, x = 1]
+5. 0.0588235294117647
+6. The prime factorisation of q has only powers of 2 or powers of 5 or both.
+7. 0.01001000100001. . ., 0.202002000200002. . ., 0.003000300003. . .
+8. 0.75075007500075000075. . ., 0.767076700767000767. . ., 0.808008000800008. . .
+9. (i) and (v) irrational; (ii), (iii) and (iv) rational.
+EXERCISE 1.4
+1. Proceed as in Section 1.4 for 2.665.
+2. Proceed as in Example 11.
+EXERCISE 1.5
+1. (i) Irrational (ii) Rational (iii) Rational (iv) Irrational
+(v) Irrational
+2. (i) 6 32 23 6  (ii) 6 (iii) 7 2 10  (iv) 3
+3. There is no contradiction. Remember that when you measure a length with a scale or any
+other device, you only get an approximate rational value. So, you may not realise that
+either c or d is irrational.
+© NCERT
+not to be republished
+ANSWERS/HINTS 327
+4. Refer Fig. 1.17.
+5. (i)
+7
+7 (ii) 7 6  (iii)
+5 2
+3
+ (iv)
+7 2
+3
+
+EXERCISE 1.6
+1. (i) 8 (ii) 2 (iii) 5 2. (i) 27 (ii) 4 (iii) 8 (iv)   1 1
+3 3 –1 3 1 (125) 5 5 5
+   
+   
+ 
+3. (i) 13
+15 2 (ii) 3–21 (iii)
+1
+4 11 (iv)
+1
+2 56
+EXERCISE 2.1
+1. (i) and (ii) are polynomials in one variable, (v) is a polynomial in three variables,
+(iii), (iv) are not polynomials, because in each of these exponent of the variable is not a
+whole number.
+2. (i) 1 (ii) –1 (iii) 2
+
+(iv) 0
+3. 3x35 – 4; 2 y100 (You can write some more polynomials with different coefficients.)
+4. (i) 3 (ii) 2 (iii) 1 (iv) 0
+5. (i) quadratic (ii) cubic (iii) quadratic (iv) linear
+(v) linear (vi) quadratic (vii) cubic
+EXERCISE 2.2
+1. (i) 3 (ii) –6 (iii) –3
+2. (i) 1, 1, 3 (ii) 2, 4, 4 (iii) 0, 1, 8 (iv) –1, 0, 3
+3. (i) Yes (ii) No (iii) Yes (iv) Yes
+(v) Yes (vi) Yes
+(vii) 1
+3  is a zero, but 2
+3
+ is not a zero of the polynomial (viii) No
+4. (i) –5 (ii) 5 (iii)
+5
+2
+ (iv)
+2
+3
+(v) 0 (vi) 0 (vii) d
+c 
+© NCERT
+not to be republished
+328 MATHEMATICS
+EXERCISE 2.3
+1. (i) 0 (ii) 27
+8 (iii) 1 (iv) –π3
+ + 3π2
+ – 3π + 1 (v) 27
+8 
+2. 5a 3. No, since remainder is not zero.
+EXERCISE 2.4
+1. (x + 1) is a factor of (i), but not the factor of (ii), (iii) and (iv).
+2. (i) Yes (ii) No (iii) Yes
+3. (i) –2 (ii)     2 2 (iii) 2 1  (iv)
+3
+2
+4. (i) (3x – 1) (4x – 1) (ii) (x + 3) (2x + 1) (iii) (2x + 3) (3x – 2) (iv) (x + 1) (3x – 4)
+5. (i) (x – 2) (x – 1) (x + 1) (ii) (x + 1) (x + 1) (x – 5)
+(iii) (x + 1) (x + 2) (x + 10) (iv) (y – 1) (y + 1) (2y + 1)
+EXERCISE 2.5
+1. (i) x2
+ + 14x + 40 (ii) x2
+ – 2x – 80 (iii) 9x2
+ – 3x – 20
+(iv) y4
+ – 9
+4 (v) 9 – 4x2
+2. (i) 11021 (ii) 9120 (iii) 9984
+3. (i) (3x + y) (3x + y) (ii) (2y – 1) (2y – 1) (iii) 10 10
+y y x x
+          
+4. (i) x2
+ + 4y2
+ + 16z2
+ + 4xy + 16yz + 8xz
+(ii) 4x2
+ + y2
+ + z2
+ – 4xy – 2yz + 4xz
+(iii) 4x2
+ + 9y2
+ + 4z2
+ – 12xy + 12yz – 8xz
+(iv) 9a2
+ + 49b2
+ + c2
+ – 42ab + 14bc – 6ac
+(v) 4x2
+ + 25y2
+ + 9z2
+ – 20xy – 30yz + 12xz
+(vi)
+2 2
+1
+16 4 4 2
+a b ab a
+    b
+5. (i) (2x + 3y – 4z) (2x + 3y – 4z) (ii)       2 22 2 22 xy z xy z  
+6. (i) 8x3
+ + 12x2
+ + 6x + 1 (ii) 8a3
+ – 27b3
+ – 36a2
+b + 54ab2
+© NCERT
+not to be republished
+ANSWERS/HINTS 329
+(iii) 27 27 9 3 2 1
+8 42
+x xx   (iv)
+2
+3 32 8 4 2
+27 3
+xy x y xy  
+7. (i) 970299 (ii) 1061208 (iii) 994011992
+8. (i) (2a + b)(2a + b)(2a + b) (ii) (2a – b)(2a – b)(2a – b)
+(iii) (3 – 5a)(3 – 5a)(3 – 5a) (iv) (4a – 3b)(4a – 3b)(4a – 3b)
+(v) 111 333
+666 ppp
+            
+10. (i) (3y + 5z) (9y2
+ + 25z2
+ – 15yz) (ii) (4m – 7n) (16m2
+ + 49n2
+ + 28mn)
+11. (3x + y + z) (9x2
+ + y2
+ + z2
+ – 3xy – yz – 3xz)
+12. Simiplify RHS.
+13. Put x + y + z = 0 in Identity VIII.
+14. (i) –1260. Let a = –12, b = 7, c = 5. Here a + b + c = 0. Use the result given in Q13.
+(ii) 16380
+15. (i) One possible answer is : Length = 5a – 3, Breadth = 5a – 4
+(ii) One possible answer is : Length = 7y – 3, Breadth = 5y + 4
+16. (i) One possible answer is : 3, x and x – 4.
+(ii) One possible answer is : 4k, 3y + 5 and y – 1.
+EXERCISE 3.1
+1. Consider the lamp as a point and table as a plane.
+Choose any two perpendicular edges of the table.
+Measure the distance of the lamp from the longer
+edge, suppose it is 25 cm. Again, measure the
+distance of the lamp from the shorter edge, and
+suppose it is 30 cm. You can write the position of the
+lamp as (30, 25) or (25, 30), depending on the order
+you fix.
+© NCERT
+not to be republished
+330 MATHEMATICS
+2. The Street plan is shown in figure given below.
+Both the cross-streets are marked in the figure above. They are uniquely found because
+of the two reference lines we have used for locating them.
+EXERCISE 3.2
+1. (i) The x - axis and the y - axis (ii) Quadrants (iii) The origin
+2. (i) (– 5, 2) (ii) (5, –5) (iii) E (iv) G (v) 6 (vi) – 3 (vii) (0, 5) (viii) (–3, 0)
+EXERCISE 3.3
+1. The point (–2, 4) lies in
+quadrant II, the point (3, –1)
+lies in the quadrant IV, the point
+(– 1, 0) lies on the negative
+x - axis, the point (1, 2) lies in
+the quadrant I and the point
+(–3, –5) lies in the quadrant III.
+Locations of the points are
+shown in the adjoining figure.
+© NCERT
+not to be republished
+ANSWERS/HINTS 331
+2. Positions of the points are shown
+by dots in the adjoining figure.
+EXERCISE 4.1
+1. x – 2y = 0
+2. (i) 2x + 3y – 9.35 = 0; a = 2, b = 3, c = – 9.35
+(ii) x – 5
+y
+ – 10 = 0; a = 1, b =
+1,
+5
+ c = –10
+(iii) –2x + 3y – 6 = 0; a = –2, b = 3, c = –6
+(iv) 1.x – 3y + 0 = 0; a = 1, b = –3, c = 0
+(v) 2x + 5y + 0 = 0; a = 2, b = 5, c = 0
+(vi) 3x + 0.y + 2 = 0; a = 3, b = 0, c = 2
+(vii) 0.x + 1.y – 2 = 0; a = 0, b = 1, c = –2
+(viii)–2x + 0.y + 5 = 0; a = –2, b = 0, c = 5
+EXERCISE 4.2
+1. (iii), because for every value of x, there is a corresponding value of y and vice-versa.
+© NCERT
+not to be republished
+332 MATHEMATICS
+2. (i) (0, 7), (1, 5), (2, 3), (4, –1)
+(ii) (1, 9 – π), (0, 9), (–1, 9 + π), 9 , 0
+
+     
+(iii) (0, 0), (4, 1), (– 4, 1), 1 2, 2
+     
+3. (i) No (ii) No (iii) Yes (iv) No (v) No
+4. 7
+EXERCISE 4.3
+1. (i) (ii)
+(iii) (iv)
+© NCERT
+not to be republished
+ANSWERS/HINTS 333
+2. 7x – y = 0 and x + y = 16; infintely many [Through a
+point infinitely many lines can be drawn]
+3.
+5
+3 4. 5x – y + 3 = 0
+5. For Fig. 4.6, x + y = 0 and for Fig. 4.7, y = –x + 2.
+6. Supposing x is the distance and y is the work done.
+Therefore according to the problem the equation will
+be y = 5x.
+(i) 10 units (ii) 0 unit
+7. x + y = 100
+© NCERT
+not to be republished
+334 MATHEMATICS
+8. (i) See adjacent figure.
+(ii) 86º F
+(iii) 35° C
+(iv) 32° F, –17.8° C (approximately)
+(v) Yes, – 40° (both in F and C)
+EXERCISE 4.4
+1. (i)
+(ii)
+© NCERT
+not to be republished
+ANSWERS/HINTS 335
+2. (i)
+(ii)
+EXERCISE 5.1
+1. (i) False. This can be seen visually by the student.
+(ii) False. This contradicts Axiom 5.1.
+(iii) True. (Postulate 2)
+(iv) True. If you superimpose the region bounded by one circle on the other, then they
+coincide. So, their centres and boundaries coincide. Therefore, their radii will
+coincide.
+(v) True. The first axiom of Euclid.
+3. There are several undefined terms which the student should list. They are consistent,
+because they deal with two different situations — (i) says that given two points A and
+B, there is a point C lying on the line in between them; (ii) says that given A and B, you
+can take C not lying on the line through A and B.
+These ‘postulates’ do not follow from Euclid’s postulates. However, they follow from
+Axiom 5.1.
+4. AC = BC
+So, AC + AC = BC + AC (Equals are added to equals)
+i.e., 2AC = AB (BC + AC coincides with AB)
+Therefore, AC =
+1
+2
+ AB
+© NCERT
+not to be republished
+336 MATHEMATICS
+5. Make a temporary assumption that different points C and D are two mid-points of AB.
+Now, you show that points C and D are not two different points.
+6. AC = BD (Given) (1)
+AC = AB + BC (Point B lies between A and C) (2)
+BD = BC + CD (Point C lies between B and D) (3)
+Substituting (2) and (3) in (1), you get
+AB + BC = BC + CD
+So, AB = CD (Subtracting equals from equals)
+7. Since this is true for any thing in any part of the world, this is a universal truth.
+EXERCISE 5.2
+1. Any formulation the student gives should be discussed in the class for its validity.
+2. If a straight line l falls on two straight lines m and n such that sum of the interior angles
+on one side of l is two right angles, then by Euclid’s fifth postulate the line will not meet
+on this side of l. Next, you know that the sum of the interior angles on the other side of
+line l will also be two right angles. Therefore, they will not meet on the other side also.
+So, the lines m and n never meet and are, therefore, parallel.
+EXERCISE 6.1
+1. 30°, 250° 2. 126° 4. Sum of all the angles at a point = 360°
+5. ∠ QOS = ∠ SOR + ∠ ROQ and ∠ POS = ∠ POR – ∠ SOR. 6. 122°, 302°
+EXERCISE 6.2
+1. 130°, 130° 2. 126° 3. 126°, 36°, 54° 4. 60° 5. 50°, 77°
+6. Angle of incidence = Angle of reflection. At point B, draw BE ⊥ PQ and at point C,
+draw CF ⊥ RS.
+EXERCISE 6.3
+1. 65° 2. 32°, 121° 3. 92° 4. 60° 5. 37°, 53°
+6. Sum of the angles of Δ PQR = Sum of the angles of Δ QTR and
+∠ PRS = ∠ QPR + ∠ PQR.
+EXERCISE 7.1
+1. They are equal. 6. ∠ BAC = ∠ DAE
+© NCERT
+not to be republished
+ANSWERS/HINTS 337
+EXERCISE 7.2
+6. ∠ BCD =∠ BCA + ∠ DCA = ∠ B + ∠ D 7. each is of 45°
+EXERCISE 7.3
+3. (ii) From (i), ∠ ABM = ∠ PQN
+EXERCISE 7.4
+4. Join BD and show ∠ B > ∠ D. Join AC and show ∠ A > ∠ C.
+5. ∠ Q + ∠ QPS > ∠ R + ∠ RPS, etc.
+EXERCISE 8.1
+1. 36°, 60°, 108° and 156°.
+6. (i) From Δ DAC and Δ BCA, show ∠ DAC = ∠ BCA and ∠ ACD = ∠ CAB, etc.
+(ii) Show ∠ BAC = ∠ BCA, using Theorem 8.4.
+EXERCISE 8.2
+2. Show PQRS is a parallelogram. Also show PQ || AC and PS || BD. So, ∠ P = 90°.
+5. AECF is a parallelogram. So, AF || CE, etc.
+EXERCISE 9.1
+1. (i) Base DC, parallels DC and AB; (iii) Base QR, parallels QR and PS;
+(v) Base AD, parallels AD and BQ
+EXERCISE 9.2
+1. 12.8 cm. 2. Join EG; Use result of Example 2.
+6. Wheat in Δ APQ and pulses in other two triangles or pulses in Δ APQ and wheat in
+other two triangles.
+EXERCISE 9.3
+4. Draw CM ⊥ AB and DN ⊥ AB. Show CM = DN. 12. See Example 4.
+© NCERT
+not to be republished
+338 MATHEMATICS
+EXERCISE 9.4 (Optional)
+7. Use result of Example 3 repeatedly.
+EXERCISE 10.1
+1. (i) Interior (ii) Exterior (iii) Diameter
+(iv) Semicircle (v) The chord (vi) Three
+2. (i) True (ii) False (iii) False
+(iv) True (v) False (vi) True
+EXERCISE 10.2
+1. Prove exactly as Theorem 10.1 by considering chords of congruent circles.
+2. Use SAS axiom of congruence to show the congruence of the two triangles.
+EXERCISE 10.3
+1. 0, 1, 2. Two 2. Proceed as in Example 1.
+3. Join the centres O, O′ of the circles to the mid-point M of the common chord AB.
+Then, show ∠ OMA = 90° and ∠ O′MA = 90°.
+EXERCISE 10.4
+1. 6 cm. First show that the line joining centres is perpendicular to the radius of the
+smaller circle and then that common chord is the diameter of the smaller circle.
+2. If AB, CD are equal chords of a circle with centre O intersecting at E, draw
+perpendiculars OM on AB and ON on CD and join OE. Show that right triangles OME
+and ONE are congruent.
+3. Proceed as in Example 2. 4. Draw perpendicular OM on AD.
+5. Represent Reshma, Salma and Mandip by R, S
+and M respectively. Let KR = x m (see figure).
+Area of Δ ORS =
+1
+2
+x × 5. Also, area of Δ ORS =
+1
+2
+ RS × OL =
+1
+2
+ × 6 × 4.
+Find x and hence RM.
+6. Use the properties of an equilateral triangle and also Pythagoras Theorem.
+© NCERT
+not to be republished
+ANSWERS/HINTS 339
+EXERCISE 10.5
+1. 45° 2. 150°, 30° 3. 10°
+4. 80° 5. 110° 6. ∠ BCD = 80° and ∠ ECD = 50°
+8. Draw perpendiculars AM and BN on CD (AB || CD and AB < CD). Show
+Δ AMD ≅ Δ BNC. This gives ∠ C = ∠ D and, therefore, ∠ A + ∠ C = 180°.
+EXERCISE 10.6 (Optional)
+2. Let O be the centre of the circle. Then perpendicular bisector of both the chords will
+be same and passes through O. Let r be the radius, then r2
+ =
+2
+11
+2
+      + x2
+=
+2
+5 2 (6 ) 2
+x
+        , where x is length of the perpendicular from O on the chord of
+length 11 cm. This gives x = 1. So, r =
+5 5
+2
+ cm. 3. 3 cm.
+4. Let ∠ AOC = x and ∠ DOE = y. Let ∠ AOD = z. Then ∠ EOC = z and x + y + 2z = 360°.
+∠ ODB = ∠ OAD + ∠ DOA = 90° –
+1
+2
+z + z = 90° +
+1
+2
+z. Also ∠ OEB = 90° +
+1
+2
+z
+8. ∠ ABE = ∠ AD E, ∠ ADF = ∠ ACF =
+1
+2
+∠ C.
+Therefore, ∠ EDF =∠ ABE + ∠ ADF =
+1
+2 (∠ B + ∠ C) =
+1
+2 (180° – ∠ A) = 90° –
+1
+2
+∠ A.
+9. Use Q. 1, Ex. 10.2 and Theorem 10.8.
+10. Let angle-bisector of ∠ A intersect circumcircle of Δ ABC at D. Join DC and DB. Then
+∠ BCD = ∠ BAD =
+1
+2
+∠ A and ∠ DBC = ∠ DAC =
+1
+2
+∠ A. Therefore, ∠ BCD =
+∠ DBC or, DB = DC. So, D lies on the perpendicular bisector of BC.
+EXERCISE 12.1
+1.
+3 2 2 , 900,3cm 4
+a 2. ` 1650000 3. 2 20 2 m
+4. 2 21 11cm 5. 9000 cm2 6. 2 9 15 cm
+© NCERT
+not to be republished
+340 MATHEMATICS
+EXERCISE 12.2
+1. 65.5 m2
+ (approx.) 2. 15.2 cm2
+ (approx.) 3. 19.4 cm2
+ (approx.)
+4. 12 cm 5. 48 m2 6. 1000 6 cm2
+, 1000 6 cm2
+7. Area of shade I = Area of shade II = 256 cm2
+ and area of shade III = 17.92 cm2
+8. ` 705.60 9. 196 m2
+[See the figure. Find area of Δ BEC = 84 m2
+, then find the height BM. ]
+EXERCISE 13.1
+1. (i) 5.45 m2 (ii) ` 109 2. ` 555 3. 6 m 4. 100 bricks.
+5. (i) Lateral surface area of cubical box is greater by 40 cm2
+.
+(ii) Total surface area of cuboidal box is greater by 10 cm2
+.
+6. (i) 4250 cm2
+ of glass (ii) 320 cm of tape. [Calculate the sum of all the
+edges (The 12 edges consist of 4 lengths, 4 breadths and 4 heights)].
+7. ` 2184 8. 47 m2
+EXERCISE 13.2
+1. 2 cm 2. 7.48 m2 3. (i) 968 cm2 (ii) 1064.8 cm2 (iii) 2038.08 cm2
+[Total surface area of a pipe is (inner curved surface area + outer curved surface
+area + areas of the two bases). Each base is a ring of area given by π (R2
+ – r2
+),
+where R = outer radius and r = inner radius].
+4. 1584 m2 5. Rs 68.75 6. 1 m
+7. (i) 110 m2 (ii) Rs 4400 8. 4.4 m2
+9. (i) 59.4 m2 (ii) 95.04 m2
+[Let the actual area of steel used be x m2
+. Since
+1
+12
+ of the actual steel used was
+© NCERT
+not to be republished
+ANSWERS/HINTS 341
+wasted, the area of steel which has gone into the tank =
+11
+12
+ of x. This means that the
+actual area of steel used =
+12 2 87.12m
+11  ]
+10. 2200 cm2
+; Height of the cylinder should be treated as (30 + 2.5 + 2.5) cm
+11. 7920 cm2
+EXERCISE 13.3
+1. 165 cm2 2. 1244.57 m2 3. (i) 7 cm (ii) 462 cm2
+4. (i) 26 m (ii) ` 137280 5. 63 m 6. ` 1155
+7. 5500 cm2 8. ` 384.34 (approx.)
+EXERCISE 13.4
+1. (i) 1386 cm2 (ii) 394.24 cm2 (iii) 2464 cm2
+2. (i) 616 cm2 (ii) 1386 cm2 (iii) 38.5 m2
+3. 942 cm2 4. 1 : 4 5. ` 27.72
+6. 3.5 cm 7. 1 : 16 8. 173.25 cm2
+9. (i) 4πr2 (ii) 4πr2 (iii) 1 : 1
+EXERCISE 13.5
+1. 180 cm3 2. 135000 litres 3. 4.75 m 4. ` 4320 5. 2 m
+6. 3 days 7. 16000 8. 6 cm, 4 : 1 9. 4000 m3
+EXERCISE 13.6
+1. 34.65 litres
+2. 3.432 kg [Volume of a pipe = πh × (R2
+ – r2
+), where R is the outer radius and r is the inner
+radius].
+3. The cylinder has the greater capacity by 85 cm3
+.
+4. (i) 3 cm (ii) 141.3 cm3
+5. (i) 110 m2 (ii) 1.75 m (iii) 96.25 kl 6. 0.4708 m2
+7. Volume of wood = 5.28 cm3
+, Volume of graphite = 0.11 cm3
+.
+8. 38500 cm3
+ or 38.5l of soup
+© NCERT
+not to be republished
+342 MATHEMATICS
+EXERCISE 13.7
+1. (i) 264 cm3 (ii) 154 cm3 2. (i) 1.232 l (ii) 11
+35
+l
+3. 10 cm 4. 8 cm 5. 38.5 kl
+6. (i) 48 cm (ii) 50 cm (iii) 2200 cm2 7. 100π cm3 8. 240π cm3
+; 5 : 12
+9. 86.625x m3
+, 99.825 m2
+EXERCISE 13.8
+1. (i) 1437
+1
+3 cm3 (ii) 1.05 m3
+ (approx.)
+2. (i) 11498
+2
+3 cm3 (ii) 0.004851 m3 3. 345.39 g (approx.) 4.
+1
+64
+5. 0.303l (approx.) 6. 0.06348 m3
+ (approx.)
+7.
+2 179
+3
+cm3 8. (i) 249.48 m2 (ii) 523.9 m3
+ (approx.) 9. (i) 3r (ii) 1 : 9
+10. 22.46 mm3
+ (approx.)
+EXERCISE 13.9 (Optional )
+1. ` 6275
+2. ` 2784.32 (approx.) [Rememeber to subtract the part of the sphere that is resting on the
+support while calculating the cost of silver paint]. 3. 43.75%
+EXERCISE 14.1
+1. Five examples of data that we can gather from our day-to-day life are :
+(i) Number of students in our class.
+(ii) Number of fans in our school.
+(iii) Electricity bills of our house for last two years.
+(iv) Election results obtained from television or newspapers.
+(v) Literacy rate figures obtained from Educational Survey.
+Of course, remember that there can be many more different answers.
+© NCERT
+not to be republished
+ANSWERS/HINTS 343
+2. Primary data; (i), (ii) and (iii)
+Secondary data; (iv) and (v)
+EXERCISE 14.2
+1. Blood group Number of students
+A 9
+B 6
+O 12
+AB 3
+Total 30
+Most common – O , Rarest – AB
+2.
+Distances Tally Marks Frequency
+(in km)
+ 0 - 5 |||| 5
+ 5 - 10 |||| |||| | 11
+10 - 15 |||| |||| | 11
+15 - 20 |||| |||| 9
+20 - 25 | 1
+25 - 30 | 1
+30 - 35 || 2
+Total 40
+3. (i) Relative humidity (in %) Frequency
+84 - 86 1
+86 - 88 1
+88 - 90 2
+90 - 92 2
+92 - 94 7
+94 - 96 6
+96 - 98 7
+98 - 100 4
+Total 30
+© NCERT
+not to be republished
+344 MATHEMATICS
+(ii) The data appears to be taken in the rainy season as the relative humidity is high.
+(iii) Range = 99.2 – 84.9 = 14.3
+4. (i) Heights (in cm) Frequency
+150 - 155 12
+155 - 160 9
+160 - 165 14
+165 - 170 10
+170 - 175 5
+Total 50
+(ii) One conclusion that we can draw from the above table is that more than 50% of
+students are shorter than 165 cm.
+5. (i) Concentration of Frequency
+Sulphur dioxide (in ppm)
+0.00 - 0.04 4
+0.04 - 0.08 9
+0.08 - 0.12 9
+0.12 - 0.16 2
+0.16 - 0.20 4
+0.20 - 0.24 2
+Total 30
+(ii) The concentration of sulphur dioxide was more than 0.11 ppm for 8 days.
+6. Number of heads Frequency
+0 6
+1 10
+2 9
+3 5
+Total 30
+© NCERT
+not to be republished
+ANSWERS/HINTS 345
+7. (i) Digits Frequency
+0 2
+1 5
+2 5
+3 8
+4 4
+5 5
+6 4
+7 4
+8 5
+9 8
+Total 50
+(ii) The most frequently occurring digits are 3 and 9. The least occurring is 0.
+8. (i) Number of hours Frequency
+ 0 - 5 10
+ 5 - 10 13
+10 - 15 5
+15 - 20 2
+Total 30
+(ii) 2 children.
+9. Life of batteries Frequency
+(in years)
+2.0 - 2.5 2
+ 2.5 - 3.0 6
+3.0 - 3.5 14
+3.5 - 4.0 11
+4.0 - 4.5 4
+4.5 - 5.0 3
+Total 40
+© NCERT
+not to be republished
+346 MATHEMATICS
+EXERCISE 14.3
+1. (ii) Reproductive health conditions.
+3. (ii) Party A 4. (ii) Frequency polygon (iii) No 5. (ii) 184
+8. Age (in years) Frequency Width Length of the rectangle
+1 - 2 5 1
+5 1 5
+1  
+2 - 3 3 1
+3 1 3
+1  
+3 - 5 6 2
+6 1 3
+2  
+5 - 7 12 2
+12 1 6
+2  
+7 - 10 9 3
+9 1 3
+3  
+10 - 15 10 5
+10 1 2
+5  
+15 - 17 4 2
+4 1 2
+2  
+Now, you can draw the histogram, using these lengths.
+9. (i) Number of letters Frequency Width of Length of
+interval rectangle
+1 - 4 6 3
+6 2 4
+3  
+4 - 6 30 2
+30 2 30
+2  
+6 - 8 44 2
+44 2 44
+2  
+8 - 12 16 4
+16 2 8
+4  
+12 - 20 4 8
+4 2 1
+8  
+Now, draw the histogram.
+(ii) 6 - 8
+© NCERT
+not to be republished
+ANSWERS/HINTS 347
+EXERCISE 14.4
+1. Mean = 2.8; Median = 3; Mode = 3
+2. Mean = 54.8; Median = 52; Mode = 52
+3. x = 62 4. 14
+5. Mean salary of 60 workers is Rs 5083.33.
+EXERCISE 15.1
+1.
+24 4 , i.e., 30 5
+2. (i)
+19
+60 (ii)
+407
+750 (iii)
+211
+1500 3.
+3
+20 4.
+9
+25
+5. (i)
+29
+2400 (ii)
+579
+2400 (iii)
+1
+240 (iv)
+1
+96 (v)
+1031
+1200 6. (i)
+7
+90 (ii)
+23
+90
+7. (i)
+27
+40 (ii)
+13
+40 8. (i)
+9
+40 (ii)
+31
+40 (iii) 0 11.
+7
+11
+12. 1
+15
+13. 1
+10
+EXERCISE A1.1
+1. (i) False. There are 12 months in a year.
+(ii) Ambiguous. In a given year, Diwali may or may not fall on a Friday.
+(iii) Ambiguous. At some time in the year, the temperature in Magadi, may be 26° C.
+(iv) Always true.
+(v) False. Dogs cannot fly.
+(vi) Ambiguous. In a leap year, February has 29 days.
+2. (i) False. The sum of the interior angles of a quadrilateral is 360°.
+(ii) True (iii) True (iv) True
+(v) False, for example, 7 + 5 = 12, which is not an odd number.
+3. (i) All prime numbers greater than 2 are odd. (ii) Two times a natural number is
+always even. (iii) For any x > 1, 3x + 1 > 4. (iv) For any x ≥ 0, x3 ≥ 0.
+(v) In an equilateral triangle, a median is also an angle bisector.
+EXERCISE A1.2
+1. (i) Humans are vertebrates. (ii) No. Dinesh could have got his hair cut by anybody
+else. (iii) Gulag has a red tongue. (iv) We conclude that the gutters will have to
+be cleaned tomorrow. (v) All animals having tails need not be dogs. For example,
+animals such as buffaloes, monkeys, cats, etc. have tails but are not dogs.
+2. You need to turn over B and 8. If B has an even number on the other side, then the rule
+© NCERT
+not to be republished
+348 MATHEMATICS
+has been broken. Similarly, if 8 has a consonant on the other side, then the rule has
+been broken.
+EXERCISE A1.3
+1. Three possible conjectures are:
+(i) The product of any three consecutive even numbers is even. (ii) The product
+of any three consecutive even numbers is divisible by 4. (iii) The product of any
+three consecutive even numbers is divisible by 6.
+2. Line 4: 1 3 3 1 =113
+; Line 5: 1 4 6 4 1=114
+; the conjecture holds for Line 4 and Line 5;
+No, because 115 ≠ 15101051.
+3. T4
+ + T5
+ =25 = 52 ; Tn – 1 + Tn
+ = n2
+.
+4. 1111112
+ = 12345654321 ; 11111112
+ = 1234567654321
+5. Student’s own answer. For example, Euclid’s postulates.
+EXERCISE A1.4
+1. (i) You can give any two triangles with the same angles but of different sides.
+(ii) A rhombus has equal sides but may not be a square.
+(iii) A rectangle has equal angles but may not be a square.
+(iv) For a = 3 and b = 4, the statement is not true.
+(v) For n = 11, 2n2
+ + 11 = 253 which is not a prime.
+(vi) For n = 41, n2
+ – n + 41 is not a prime.
+2. Student’s own answer.
+3. Let x and y be two odd numbers. Then x = 2m +1 for some natural number m and
+y = 2n + 1 for some natural number n.
+x + y = 2 (m + n + 1). Therefore, x + y is divisible by 2 and is even.
+4. See Q.3. xy = (2m + 1)(2n + 1) = 2 (2mn + m + n) + 1.
+Therefore, x y is not divisible by 2, and so it is odd.
+5. Let 2n, 2n + 2 and 2n + 4 be three consecutive even numbers. Then their sum is
+6(n + 1), which is divisible by 6.
+7. (i) Let your original number be n. Then we are doing the following operations:
+n → 2n → 2 n + 9 → 2 n + 9 + n = 3n + 9 →
+3 9
+3
+n 
+ = n + 3 →n + 3 + 4 = n + 7 →
+n + 7 – n = 7.
+(ii) Note that 7 × 11 × 13 = 1001. Take any three digit number say, abc. Then
+abc × 1001 = abcabc. Therefore, the six digit number abcabc is divisible by 7, 11
+and 13.
+© NCERT
+not to be republished
+ANSWERS/HINTS 349
+EXERCISE A2.1
+1. Step 1: Formulation :
+The relevant factors are the time period for hiring a computer, and the two costs given
+to us. We assume that there is no significant change in the cost of purchasing or
+hiring the computer. So, we treat any such change as irrelevant. We also treat all
+brands and generations of computers as the same, i.e. these differences are also
+irrelevant.
+The expense of hiring the computer for x months is ` 2000x. If this becomes more than
+the cost of purchasing a computer, we will be better off buying a computer. So, the
+equation is
+2000 x = 25000 (1)
+Step 2 : Solution : Solving (1), x =
+25000
+2000
+ = 12.5
+Step 3 : Interpretation : Since the cost of hiring a computer becomes more after 12.5
+months, it is cheaper to buy a computer, if you have to use it for more than 12 months.
+2. Step1 : Formulation : We will assume that cars travel at a constant speed. So, any
+change of speed will be treated as irrelevant. If the cars meet after x hours, the first car
+would have travelled a distance of 40x km from A and the second car would have
+travelled 30x km, so that it will be at a distance of (100 – 30x) km from A. So the
+equation will be 40x = 100 – 30x, i.e., 70x = 100.
+Step 2 : Solution : Solving the equation, we get x = 100
+70 .
+Step 3 : Interpretation : 100
+70 is approximately 1.4 hours. So, the cars will meet after
+1.4 hours.
+3. Step1 : Formulation : The speed at which the moon orbits the earth is
+Length of the orbit
+Time taken .
+Step 2 : Solution : Since the orbit is nearly circular, the length is 2 × π × 384000 km
+= 2411520 km
+The moon takes 24 hours to complete one orbit.
+So, speed =
+2411520
+24
+= 100480 km/hour.
+Step 3 : Interpretation : The speed is 100480 km/h.
+4. Formulation : An assumption is that the difference in the bill is only because of using
+the water heater.
+© NCERT
+not to be republished
+350 MATHEMATICS
+Let the average number of hours for which the water heater is used = x
+Difference per month due to using water heater = ` 1240 – ` 1000 = ` 240
+Cost of using water heater for one hour = ` 8
+So, the cost of using the water heater for 30 days = 8 × 30 × x
+Also, the cost of using the water heater for 30 days = Difference in bill due to using
+water heater
+So, 240x = 240
+Solution : From this equation, we get x = 1.
+Interpretation : Since x = 1, the water heater is used for an average of 1 hour in a day.
+EXERCISE A2.2
+1. We will not discuss any particular solution here. You can use the same method as we
+used in last example, or any other method you think is suitable.
+EXERCISE A2.3
+1. We have already mentioned that the formulation part could be very detailed in reallife situations. Also, we do not validate the answer in word problems. Apart from this
+word problem have a ‘correct answer’. This need not be the case in real-life situations.
+2. The important factors are (ii) and (iii). Here (i) is not an important factor although it
+can have an effect on the number of vehicles sold.
+© NCERT
+not to be republished
